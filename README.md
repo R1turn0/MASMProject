@@ -1,4 +1,4 @@
-# Win32汇编
+# Win32汇编--MASM32SDK
 
 ### 一、介绍
 常用的32位汇编编译器有微软的MASM、Borland的TASM和NASM。
