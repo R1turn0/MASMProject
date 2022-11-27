@@ -10,14 +10,11 @@ includelib  masm32.lib
 includelib  kernel32.lib
 
 .data
-    helloworld db "Hello World!",0
+    helloworld db "Hello World!", 0
 
 .code
 
 start:
-    invoke  StdOut,addr helloworld
-    invoke  ExitProcess,0
-
+    invoke  StdOut, ADDR helloworld
+    invoke  ExitProcess, 0
 end start
-
-
