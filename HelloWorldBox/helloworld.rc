@@ -1,0 +1,13 @@
+#include <resource.h>
+
+#define DLG_HELLOWORLD 1
+
+DLG_HELLOWORLD DIALOG 350,200,213,164
+STYLE                   DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION                 "Helloworld Program"
+FONT                    11, "ËÎÌו"
+{
+    CTEXT   "Win32 Assembly Helloworld Program", -1, 50, 54, 170, 21
+    CONTROL "", -1, "Static", SS_ETCHEDHORZ | WS_CHILD | WS_VISIBLE, 6, 79, 203, 1
+    DEFPUSHBUTTON "ÍË³צ", IDOK, 158, 86, 50, 21
+}
