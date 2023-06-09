@@ -18,9 +18,9 @@
 3. 配置环境变量
 ```
 Masm32Dir=C:\masm32
-include=%Masm32Dir%\include;
-lib=%Masm32Dir%\lib;
-Path=%Masm32Dir%\bin;%Masm32Dir%;
+include=%Masm32Dir%\include
+lib=%Masm32Dir%\lib
+Path=%Masm32Dir%\bin;%Masm32Dir%
 ```
 
 
